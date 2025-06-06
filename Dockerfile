@@ -1,4 +1,4 @@
-FROM ghcr.io/astral-sh/uv:python3.13-bookworm-slim
+FROM ghcr.io/astral-sh/uv:python3.13-alpine
 LABEL authors="trulselgaaen"
 
 WORKDIR /app
