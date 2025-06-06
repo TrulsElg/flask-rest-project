@@ -22,5 +22,7 @@ coverage.xml
 .pytest_cache
 .hypothesis
 docker-compose.yml
+Dockerfile
+Dockerfile.dev
 .vscode
 .idea
