@@ -32,6 +32,10 @@ Utilises Docker Compose profiles to distinguish production (`prod`) vs. developm
 # Build and start only the "prod" services (Flask + any required services)
 docker compose --profile prod up --build
 ```
+(Optional) Use Make for shorter command syntax.
+```bash
+make prod
+```
 
 ## 3. Build & Run in Development Mode (Hot-Reload)
 
@@ -43,6 +47,10 @@ When you’re actively developing, you’ll want Flask’s built-in reloader to 
 ```bash
 # Build and start "dev" services (Flask + hot-reload)
 docker compose --profile dev up --build
+```
+(Optional) Use Make for shorter command syntax.
+```bash
+make dev
 ```
 
 This will use `Dockerfile.dev` under the hood.
