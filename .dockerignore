@@ -26,3 +26,6 @@ Dockerfile
 Dockerfile.dev
 .vscode
 .idea
+Makefile
+README.md
+LICENSE
