@@ -2,7 +2,17 @@ from flask import Flask, request
 
 app = Flask(__name__)
 
-stores = [{"name": "My Store", "items": [{"name": "my item", "price": 15.99}]}]
+stores = [
+    {
+        "name": "My Store",
+        "items": [
+            {
+                "name": "Chair",
+                "price": 15.99
+            }
+        ]
+    }
+]
 
 @app.route('/')
 def hello_world():
